@@ -11,3 +11,5 @@ Die Bilder werden als visuelle Referenzen für die Workshop-Seite verwendet. Rec
 | `assets/cases/chronicles-of-bone.jpg` | https://www.creativebloq.com/ai/ai-filmmaking-is-a-gimmick-if-you-dont-know-the-rules-of-cinema | The Chronicles of Bone, AI-Filmmaking Workflow |
 | `assets/cases/beeble-relighting.png` | https://www.creativebloq.com/ai/how-we-taught-ai-to-understand-light | Beeble AI, physikalisch plausibles Relighting |
 | `assets/cases/tiktok-world-2026.png` | https://newsroom.tiktok.com/en-us/tiktok-world-2026 | TikTok World 2026, AI- und Werbeplattform-Signale |
+| `assets/cases/dale-may-hybrid-photography.jpg` | https://dalemayphotography.com/CASE-STUDIES/Horse-Whisperer | Dale May, hybride Werbefotografie, CGI und AI Workflow |
+| `assets/cases/felicity-hammond-expanded-photography.webp` | https://thephotographersgallery.org.uk/whats-on/felicity-hammond-v3-model-collapse | Felicity Hammond, Expanded Photography und AI-Bildräume |

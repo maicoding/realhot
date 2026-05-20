@@ -248,6 +248,50 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.profile-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.profile-card.featured {
+  grid-column: span 2;
+}
+
+.profile-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #ded6c8;
+}
+
+.profile-card div {
+  padding: 22px;
+}
+
+.profile-card ul {
+  padding-left: 18px;
+  margin: 16px 0;
+}
+
+.profile-card li + li {
+  margin-top: 7px;
+}
+
+.profile-card.text-only {
+  background:
+    linear-gradient(135deg, rgba(31, 107, 104, .12), rgba(194, 73, 45, .10)),
+    var(--paper);
+}
+
 .case-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -408,6 +452,7 @@ pre {
   .two-col,
   .matrix,
   .signal-grid,
+  .profile-grid,
   .case-grid,
   .compact-grid,
   .prompt-grid,
@@ -422,6 +467,10 @@ pre {
 
   .row {
     grid-template-columns: 1fr;
+  }
+
+  .profile-card.featured {
+    grid-column: span 1;
   }
 }
 
