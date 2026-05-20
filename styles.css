@@ -422,6 +422,42 @@ h3 {
   color: var(--muted);
 }
 
+.workflow-blueprint {
+  margin-top: 18px;
+  padding: 26px;
+  background: var(--deep);
+  color: var(--paper);
+}
+
+.blueprint-lanes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  margin-top: 18px;
+  background: rgba(255, 253, 248, .2);
+  border: 1px solid rgba(255, 253, 248, .2);
+}
+
+.blueprint-lanes div {
+  min-height: 178px;
+  padding: 18px;
+  background: #29302d;
+}
+
+.blueprint-lanes span {
+  display: block;
+  margin-bottom: 14px;
+  color: #ffb199;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.workflow-blueprint .small {
+  margin-bottom: 0;
+  color: rgba(255, 253, 248, .72);
+}
+
 .prompt-grid {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -488,6 +524,7 @@ pre {
   .case-grid,
   .compact-grid,
   .setup-grid,
+  .blueprint-lanes,
   .prompt-grid,
   .assignment-grid,
   .link-list {
