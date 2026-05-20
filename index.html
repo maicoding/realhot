@@ -15,6 +15,7 @@
       <a href="#jobs">Jobs</a>
       <a href="#cases">Cases</a>
       <a href="#tools">Tools</a>
+      <a href="#low-cost-workflows">Low Cost</a>
       <a href="#prompting">Prompting</a>
       <a href="#aufgaben">Aufgaben</a>
       <a href="#quellen">Quellen</a>
@@ -344,6 +345,61 @@
       </div>
     </section>
 
+    <section class="section wide" id="low-cost-workflows">
+      <div class="section-head">
+        <p class="eyebrow">Workflow-Canvas ohne großes Budget</p>
+        <h2>Günstige Wege für Weavy-ähnliche Prozesse</h2>
+      </div>
+      <div class="workflow-intro">
+        <p>Für studentische Projekte ist nicht entscheidend, ob ein Tool dieselbe Oberfläche wie Weavy hat. Entscheidend ist, ob Inputs, Referenzen, Modelle, Edits, Varianten, Bewertung und Export als reproduzierbarer Prozess sichtbar werden.</p>
+      </div>
+      <div class="workflow-table" role="table" aria-label="Günstige Workflow-Setups">
+        <div class="row head"><span>Setup</span><span>Kostenlogik</span><span>Geeignet für</span><span>Grenze</span></div>
+        <div class="row four"><span>ComfyUI lokal</span><span>Software kostenlos; Kosten entstehen durch Hardware, Speicher und Zeit.</span><span>Nodebasierte Bild- und Video-Workflows, FLUX/Stable Diffusion/Wan, Control, Inpainting, Batchtests.</span><span>Setup, Custom Nodes und Modellverwaltung brauchen technische Geduld.</span></div>
+        <div class="row four"><span>ComfyUI + Cloud GPU</span><span>Pay-per-use über GPU-Anbieter oder gehostete ComfyUI-Services.</span><span>Studierende ohne starke GPU, kurzfristige Renderphasen, schwerere Video-Workflows.</span><span>Kostenkontrolle nur mit klaren Testlimits und kurzen Clips.</span></div>
+        <div class="row four"><span>Krea Nodes</span><span>Free Plan mit Compute-Units; Pro/Max für mehr Modelle, Video und Workflow Automation.</span><span>Schnelle Canvas-Tests, Bild/Video-Modellvergleich, Node Apps, Prototypen für Präsentationen.</span><span>Weniger offen als ComfyUI; Kosten hängen an Compute-Units.</span></div>
+        <div class="row four"><span>Luma Workspace / Agents</span><span>Free Trial Credits; Individual-Pläne starten laut Luma bei 30 USD/Monat.</span><span>Video, Bild-zu-Video, Agents, Team- und Projektorganisation.</span><span>Veo/Kling/Agents können Credits schnell verbrauchen.</span></div>
+        <div class="row four"><span>fal.ai / Replicate</span><span>Pay-per-output oder pay-per-second; Preise pro Modell prüfen.</span><span>Vergleich verschiedener Modelle, eigene kleine Apps, Netlify-Demos, API-basierte Filtertools.</span><span>Kein fertiger Design-Canvas; API-Kosten müssen vorab geschätzt werden.</span></div>
+        <div class="row four"><span>n8n self-hosted</span><span>Community Edition self-hosted verfügbar; Serverkosten bei lokaler Nutzung oder kleinem VPS.</span><span>Research-Agenten, Bildlisten, Briefing-Generatoren, QA-Checklisten, automatische Quellen- und Asset-Sammlungen.</span><span>Nicht primär Bildeditor; Bildmodelle werden über API oder lokale Services angebunden.</span></div>
+      </div>
+      <div class="setup-grid">
+        <article class="panel">
+          <h3>Setup A: komplett lokal</h3>
+          <p>ComfyUI + lokale Modelle + lokale Ordnerstruktur. Gut für Studierende, die Nodegraphs verstehen, dokumentieren und später als Portfolio-Beweis zeigen wollen.</p>
+          <pre><code>Input Folder
+→ Reference Images
+→ Mask / Control / Prompt
+→ Model Node
+→ Upscale / Edit
+→ Contact Sheet
+→ Auswahl + QA</code></pre>
+        </article>
+        <article class="panel">
+          <h3>Setup B: lokal planen, Cloud rendern</h3>
+          <p>Workflow zuerst als Diagramm oder ComfyUI-JSON planen. Nur finale Tests über Cloud-GPU, fal.ai, Replicate, Krea oder Luma rendern.</p>
+          <pre><code>Storyboard
+→ 3 Testframes lokal
+→ 1 Cloud-Render pro Shot
+→ Fehlerliste
+→ gezielte Revision
+→ Exportset</code></pre>
+        </article>
+        <article class="panel">
+          <h3>Setup C: Agent + Canvas</h3>
+          <p>n8n, Gemini, Codex oder ein kleines Script sammelt Quellen, baut Briefings, prüft Dateinamen und erstellt QA-Listen. Die visuelle Produktion bleibt in ComfyUI, Krea, Luma oder Weavy.</p>
+          <pre><code>Research Agent
+→ Briefing Sheet
+→ Prompt Variants
+→ Model Test Log
+→ QA Checklist
+→ Case Page Draft</code></pre>
+        </article>
+      </div>
+      <div class="source-note">
+        <p>Preisstand kann sich ändern. Für API- und Compute-Kosten immer vor dem Test die Modellseite prüfen und eine maximale Anzahl an Runs festlegen.</p>
+      </div>
+    </section>
+
     <section class="section" id="prompting">
       <div class="section-head">
         <p class="eyebrow">Prompting</p>
@@ -441,6 +497,12 @@ No botanical studio look, no perfect product lighting, no fantasy glow, no extra
         <a href="https://www.creativebloq.com/ai/ai-filmmaking-is-a-gimmick-if-you-dont-know-the-rules-of-cinema">Creative Bloq: AI Filmmaking und Filmregeln</a>
         <a href="https://www.creativebloq.com/ai/how-we-taught-ai-to-understand-light">Creative Bloq: Beeble und Relighting</a>
         <a href="https://newsroom.tiktok.com/en-us/tiktok-world-2026">TikTok World 2026</a>
+        <a href="https://canvas.krea.ai/pricing">Krea Pricing und Nodes</a>
+        <a href="https://lumalabs.ai/pricing">Luma Pricing</a>
+        <a href="https://fal.ai/docs/documentation/model-apis/pricing">fal.ai Model API Pricing</a>
+        <a href="https://replicate.com/pricing">Replicate Pricing</a>
+        <a href="https://n8n.io/pricing/">n8n Pricing / Community Edition</a>
+        <a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI GitHub</a>
         <a href="assets/SOURCES.md">Lokale Bildquellen</a>
       </div>
     </section>
