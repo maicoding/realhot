@@ -33,7 +33,7 @@ a {
 }
 
 .site-header {
-  min-height: 82vh;
+  min-height: 560px;
   background:
     linear-gradient(180deg, rgba(21, 21, 21, .36), rgba(21, 21, 21, .74)),
     url("assets/cases/deutsche-bahn-ogilvy-veo.jpg") center / cover;
@@ -91,7 +91,7 @@ h3 {
 h1 {
   max-width: 900px;
   margin: 0;
-  font-size: clamp(58px, 10vw, 132px);
+  font-size: clamp(42px, 7vw, 86px);
   font-weight: 820;
 }
 
@@ -110,7 +110,7 @@ h3 {
   max-width: 790px;
   margin: 24px 0 0;
   color: rgba(255, 253, 248, .88);
-  font-size: clamp(20px, 3vw, 30px);
+  font-size: clamp(18px, 2.4vw, 24px);
 }
 
 .meta-grid {
@@ -372,6 +372,31 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.pro-stack-grid,
+.workflow-recipes {
+  display: grid;
+  gap: 18px;
+}
+
+.pro-stack-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pro-stack-grid article,
+.workflow-recipes article {
+  padding: 24px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.pro-stack-grid span {
+  display: block;
+  margin-top: 16px;
+  color: var(--accent-2);
+  font-weight: 760;
+}
+
 .row {
   display: grid;
   grid-template-columns: 1fr 1.2fr 1.4fr;
@@ -458,6 +483,20 @@ h3 {
   color: rgba(255, 253, 248, .72);
 }
 
+.workflow-recipes {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 18px;
+}
+
+.workflow-recipes ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.workflow-recipes li + li {
+  margin-top: 8px;
+}
+
 .prompt-grid {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -524,6 +563,8 @@ pre {
   .case-grid,
   .compact-grid,
   .setup-grid,
+  .pro-stack-grid,
+  .workflow-recipes,
   .blueprint-lanes,
   .prompt-grid,
   .assignment-grid,
@@ -548,7 +589,7 @@ pre {
 
 @media (max-width: 640px) {
   .site-header {
-    min-height: 760px;
+    min-height: 620px;
   }
 
   .hero,

@@ -17,3 +17,13 @@ Die Bilder werden als visuelle Referenzen für die Workshop-Seite verwendet. Rec
 | `assets/cases/gopackshot-ai-scale.png` | https://www.gopackshot.com/ | GoPackshot AI handles scale, experts ensure quality |
 | `assets/cases/gopackshot-zalando.jpg` | https://www.gopackshot.com/ | GoPackshot Case-Umfeld Zalando |
 | `assets/cases/gopackshot-fashion.webp` | https://www.gopackshot.com/ | GoPackshot Portfolio / Fashion Content |
+| `assets/cases/mediamarkt-klopp-campaign.jpg` | https://campaigngermany.de/news/beitrag/3303-sorry-ist-halt-wm-mediamarkt-und-juergen-klopp-stimmen-auf-den-fussball-sommer-ein.html | MediaMarktSaturn WM-Kampagne mit Jürgen Klopp |
+| `assets/cases/mediamarkt-klopp-wm.jpg` | https://www.ce-markt.de/49244/europaweite-wm-kampagne-von-mediamarktsaturn/ | MediaMarktSaturn WM-Kampagne, Jürgen Klopp |
+| `assets/cases/mediamarkt-kuehlschrank.jpg` | https://www.ce-markt.de/49244/europaweite-wm-kampagne-von-mediamarktsaturn/ | MediaMarktSaturn Kampagnenmotiv Kühlschrank |
+| `assets/cases/tchibo-laecheln.png` | https://campaigngermany.de/news/beitrag/2953-neue-markenplattform-von-knsk-tchibo-will-mit-emotionen-punkten.html | Tchibo Markenplattform „Das Lächeln von Tchibo“ |
+| `assets/cases/azerion-admove.jpg` | https://www.azerion.com/admove-ai-the-new-ai-agent-platform-dedicated-to-creative-agencies-of-all-sizes/ | Azerion / AdMove.ai Creative Agent Platform |
+| `assets/cases/teufel-visiblemaker-ai-commercial.jpg` | https://visiblemaker.com/portfolio/teufel-rockster-cross-2-ai-commercial/ | Visiblemaker / Teufel Rockster Cross 2 AI Commercial |
+| `assets/cases/vodafone-ai-alpaka.png` | https://www.storzescherich.de/portfolio/alpaka/ | Vodafone AI Alpaka |
+| `assets/cases/modvisual-ai-brand-activation.png` | https://modvisual.com/ | modvisual AI Brand Activations |
+| `assets/cases/google-pomelli.webp` | https://blog.google/technology/google-labs/pomelli/ | Google Pomelli |
+| `assets/cases/vibe-altar.png` | https://www.vibealtar.com/ | Vibe Altar |
