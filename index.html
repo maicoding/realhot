@@ -18,6 +18,7 @@
       <a href="#tools">Tools</a>
       <a href="#google-aktuell">Google</a>
       <a href="#analyse-labor">Analyse</a>
+      <a href="#modelltraining">Training</a>
       <a href="#pro-tools">Pro Stacks</a>
       <a href="#low-cost-workflows">Low Cost</a>
       <a href="#prompting">Prompting</a>
@@ -421,6 +422,7 @@
         <div class="row"><span>AI Video</span><span>Veo, Kling, Higgsfield, Luma, Runway, Pika</span><span>Shot Design, Kameralogik, Dauer, Motion Coherence, End State, Tonanschluss.</span></div>
         <div class="row"><span>Brand-DNA und Varianten</span><span>Google Pomelli, Firefly Boards, Figma, Adobe</span><span>Bildregeln, Farbraum, Typografie, Produktwahrheit, Kanalvarianten.</span></div>
         <div class="row"><span>Agentic Systems</span><span>Codex, Gemini / AI Studio, Antigravity, MCP Server, n8n</span><span>Quellenqualität, Testprotokoll, QA, Kostenlog, Handoff, Wiederholbarkeit.</span></div>
+        <div class="row"><span>Modelltraining</span><span>Firefly Custom Models, Krea LoRA, fal.ai, Replicate, Scenario, ComfyUI</span><span>Dataset, Rechte, Trigger Word, Testprompts, Generalisierung, Modellgrenzen.</span></div>
         <div class="row"><span>APIs und Plattformen</span><span>fal.ai, Replicate, Freepik, Krea, Adobe, Google</span><span>Modellpreis, Laufzeit, Rechte, Datenschutz, Fehlerkosten, App-Anbindung.</span></div>
       </div>
     </section>
@@ -515,8 +517,44 @@
         </article>
         <article>
           <h4>Research: GenAI und kreative Autonomie</h4>
-          <p>Aktuelle Forschung beschreibt Spannungen zwischen strukturierter Anleitung, Selbstexperiment und kreativer Kontrolle. Relevanz: Aufgaben sollten Kriterien geben, aber Projektentscheidungen offen lassen.</p>
+          <p>Aktuelle Forschung beschreibt Spannungen zwischen strukturierter Anleitung, Selbstexperiment und eigener Entscheidung. Relevanz: Aufgaben sollten Kriterien geben und Projektentscheidungen offen lassen.</p>
           <a href="https://arxiv.org/abs/2605.10898">Quelle</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wide" id="modelltraining">
+      <div class="section-head">
+        <p class="eyebrow">Custom Models</p>
+        <h2>Wann Modelltraining sinnvoll ist</h2>
+      </div>
+      <div class="workflow-intro">
+        <p>Modelltraining ist relevant, wenn eine Bildlogik wiederholbar werden soll: Stil, Produkt, Figur, Material, Kampagnenwelt oder fotografischer Look. Im Kurs wird zuerst geprüft, ob Training nötig ist oder ob Prompt-System, Referenzbild, Template, Brand Kit, ComfyUI-Workflow oder Postproduktion ausreichen.</p>
+      </div>
+      <div class="workflow-table" role="table" aria-label="Modelltraining Entscheidung">
+        <div class="row head"><span>Ansatz</span><span>Was gelernt wird</span><span>Geeignet für</span><span>Prüffrage</span></div>
+        <div class="row four"><span>Brand Kit / Template</span><span>Regeln, Farben, Schriften, Layouts.</span><span>Kampagnenlogik, Portfolioseite, Social-Formate.</span><span>Reicht ein Regelset?</span></div>
+        <div class="row four"><span>Prompt-System + Referenzen</span><span>Wiederkehrende Sprache, Bildregeln, Referenzrollen.</span><span>Storyboard, Editorial, Serienentwicklung.</span><span>Bleibt die Bildsprache ohne Training stabil?</span></div>
+        <div class="row four"><span>LoRA / Custom Style</span><span>Stil, Objekt, Produkt, Figur oder Look.</span><span>Serien, Kampagnen, Characters, Produktvarianten.</span><span>Gibt es 12-30 rechtlich saubere Trainingsbilder?</span></div>
+        <div class="row four"><span>ComfyUI Pipeline</span><span>Zusammenspiel von Modellen, Nodes, LoRAs und Kontrollbildern.</span><span>Creative Technology, Advanced Track, Prozessportfolio.</span><span>Kann der Workflow dokumentiert und wiederholt werden?</span></div>
+        <div class="row four"><span>GAN / Notebook</span><span>Bildverteilung eines Datensatzes und Trainingsprozess.</span><span>Dataset-Kritik, Theorie, experimentelle Kunst.</span><span>Steht Erkenntnis oder Produktion im Vordergrund?</span></div>
+      </div>
+      <div class="compact-grid">
+        <article>
+          <h4>Mindestanforderungen</h4>
+          <p>Eigene oder ausdrücklich freigegebene Bilder, Einwilligung bei Personen, keine gezielte Imitation lebender Künstler:innen, dokumentiertes Dataset, Testprompts vor dem Training, Kennzeichnung des Outputs.</p>
+        </article>
+        <article>
+          <h4>Aufgabe: Trainierbare Bildsprache</h4>
+          <p>12-30 mögliche Trainingsbilder, eine Dataset-Regel, eine Ausschlussliste, ein Trigger Word, fünf Testprompts, Risikoanalyse und Entscheidung: Brand Kit, Template, Prompt-System, LoRA oder Custom Model.</p>
+        </article>
+        <article>
+          <h4>Portfolio-Wert</h4>
+          <p>Sinnvoll wird Training, wenn Dataset-Kuration, visuelle Logik, Rechteklärung, Testprompts, Modellvergleich, Fehleranalyse und Anwendung sichtbar werden.</p>
+        </article>
+        <article>
+          <h4>Tools</h4>
+          <p>Adobe Firefly Custom Models, Krea Custom Style, fal.ai, Replicate, Scenario, Segmind, Astria, Leonardo, Civitai, ComfyUI, Google Colab.</p>
         </article>
       </div>
     </section>
@@ -769,6 +807,7 @@ No botanical studio look, no perfect product lighting, no fantasy glow, no extra
         <article><span>06</span><h3>AI Postproduction QA</h3><p>Ein Edit wird mit LOCK-, PHYSICS- und NO-Listen geprüft: Kanten, Schatten, Haut, Material, Text.</p></article>
         <article><span>07</span><h3>Mini-Tool fürs Portfolio</h3><p>Ein kleines Interface löst ein reales Produktionsproblem: Filter-App, Briefing-Tool, QA-Check oder Moodboard-Sorter.</p></article>
         <article><span>08</span><h3>Job-to-Portfolio-Mapping</h3><p>Eine reale Stellenanzeige wird in explizite Skills, implizite Skills und passende Portfolio-Artefakte übersetzt.</p></article>
+        <article><span>09</span><h3>Trainierbare Bildsprache</h3><p>Dataset, Trigger Word, Testprompts, Risikoanalyse und Entscheidung: Training, Referenzsystem oder manuelle Produktion.</p></article>
       </div>
     </section>
 
@@ -803,6 +842,12 @@ No botanical studio look, no perfect product lighting, no fantasy glow, no extra
         <a href="https://www.mago.studio/">Mago Studio</a>
         <a href="https://www.topazlabs.com/news/the-expansion-release">Topaz Expansion Release</a>
         <a href="https://arxiv.org/abs/2605.10898">Research: GenAI Image Generation und kreative Autonomie</a>
+        <a href="https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models">Adobe Firefly Custom Models</a>
+        <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/custom-models/">Adobe Custom Models API</a>
+        <a href="https://docs.krea.ai/user-guide/features/training">Krea Training</a>
+        <a href="https://fal.ai/models/fal-ai/flux-lora-portrait-trainer">fal.ai FLUX Portrait Trainer</a>
+        <a href="https://replicate.com/docs/get-started/fine-tune-with-flux">Replicate Fine-Tune FLUX</a>
+        <a href="https://docs.comfy.org/tutorials/basic/lora">ComfyUI LoRA Example</a>
         <a href="https://canvas.krea.ai/pricing">Krea Pricing und Nodes</a>
         <a href="https://lumalabs.ai/pricing">Luma Pricing</a>
         <a href="https://fal.ai/docs/documentation/model-apis/pricing">fal.ai Model API Pricing</a>
